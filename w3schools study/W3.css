@@ -1,0 +1,218 @@
+body {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+
+
+  }
+  div p {
+    background-color: violet;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 50px 50px;
+    width: 200px;
+    height: 50px;
+    background-color: #eee;
+    overflow: scroll;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    border-bottom-style:double;
+    height: 100px;
+  width: 100%;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-shadow: 4px 4px red;
+    
+  }
+  
+  p ::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+    
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    border-bottom-style: dashed;
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+    background: yellow;
+    
+  }
+  #para {
+    text-align: center;
+    color: red;
+    border-bottom: inset;
+  }
+  #robotics{
+    text-align: justify;
+    color:whitesmoke;
+    border-bottom: outset;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  width: 450px;
+  text-transform: uppercase;
+  text-shadow: 5px 3px black;
+  font-style: oblique;
+  font-size: x-large;
+  font-weight: bold;
+  position: fixed;
+
+  }
+  p.import{
+    font-style: italic;
+    word-spacing: 10px;
+    direction: rtl;
+    text-align: left;
+    padding: 25px;
+    box-sizing: border-box;
+    font-variant: small-caps;
+  }
+  p.center {
+    text-align: center;
+    color: red;
+  }
+  button{
+    color: red;
+    background-color: aqua;
+    font-size: larger;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* unvisited link */
+a:link {
+  color: red;
+  background-color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  background-color: rgb(43, 44, 44);
+  display: inline-block;
+  font-size: larger;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  background-color: lightgreen;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  background-color: hotpink;
+}
+#items{
+  background-color: #ff33b1;
+  background-size: 50%;
+  list-style-type: circle;
+  color: white;
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+table, th, td {
+  border: 1px solid black;
+
+}
+th{
+  width: auto;
+  height: 30%;
+  background-color: black;
+  color: white;
+}
+tr:hover {background-color: #912323;}
+#picture {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}
+#photo {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+fieldset{
+  border: 7px solid gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+   border-right: 3px #eee;
+
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  color: white;
+}
+li {
+  float: left;
+}
+h3 {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-shadow: 2px 2px;
+  font-size: large;
+}
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+button{
+  border-radius: 25px;
+  background-color:whitesmoke;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+}
+img.border {
+  border: 5px solid thistle;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+  opacity: 20%;
+}
+#borderimg3 {
+  border: 10px solid transparent;
+  padding: 15px;
+ border-image-source: url("C:\Users\MAUNDU CYRUS\Pictures\2211.w018.n002.1455A.p30.1455.jpg");
+  border-image: url("C:\Users\MAUNDU CYRUS\Pictures\2211.w018.n002.1455A.p30.1455.jpg") 30% round;
+  transform: skewY(20deg);
+  transform: skew(20deg, 10deg);
+  transform: scaleY(3);
+}

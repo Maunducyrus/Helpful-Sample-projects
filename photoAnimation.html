@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="Eng">
+    <meta charset="UTF-8">
+    <meta name="author" content="Cyrus maundu"> 
+    <meta name="description" content="My animated Pictures">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>My photos - animation</title>
+        <style>
+body{
+    background-color:rgba(123, 21, 207, 0.432);
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 8%;
+    
+}
+.img{
+    margin-top: 2%;
+    margin-left: 20%;
+    padding: 5px;
+}
+div.animate{
+    padding-top: 0%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+    transition: width 2s, height 2s, transform 2s;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+div.animate:hover{
+    width: 300px;
+    height: 300px;
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+@keyframes example {
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: rgb(255, 0, 170);}
+  100% {background-color: green;}
+  }
+  div.animate {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 10s; 
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+        </style>
+        </head>
+<body>
+
+    <h1>CYRUS</h1>
+    <div class="animate">
+    <img src="C:\Users\MAUNDU CYRUS\Pictures\DSC_9669.jpg" width="150px" height="200px"/>
+</div>
+</body>
+</html>
